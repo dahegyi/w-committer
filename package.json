@@ -1,0 +1,32 @@
+{
+  "name": "w-committer",
+  "version": "1.0.1",
+  "description": "A tool for making commit messages harder to mess up.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dahegyi/w-committer.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "committer": "node ."
+  },
+  "bin": {
+    "committer": "index.js"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {},
+  "author": "dahegyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dahegyi/w-committer/issues"
+  },
+  "homepage": "https://github.com/dahegyi/w-committer#readme",
+  "keywords": [
+    "azure",
+    "git",
+    "karma"
+  ]
+}
